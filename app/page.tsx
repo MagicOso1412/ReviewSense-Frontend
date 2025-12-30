@@ -14,7 +14,9 @@ export default function Home() {
             ReviewSense
           </div>
           <button className="px-6 py-2 rounded-full bg-amber-600 text-white hover:bg-amber-700 transition-colors font-medium">
+            <Link href="/login">
             Comenzar
+            </Link>
           </button>
         </div>
       </nav>
@@ -30,7 +32,9 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
             <button className="px-8 py-4 rounded-full bg-gradient-to-r from-amber-600 to-orange-600 text-white font-semibold text-lg hover:shadow-lg transition-shadow">
+              <Link href="/main">
               Explorar Libros
+              </Link>
             </button>
             <button className="px-8 py-4 rounded-full border-2 border-gray-300 dark:border-gray-600 text-gray-900 dark:text-white font-semibold text-lg hover:bg-gray-50 dark:hover:bg-gray-900 transition-colors">
               Saber Más
@@ -99,7 +103,7 @@ export default function Home() {
             Únete a miles de lectores que ya están descubriendo sus libros favoritos con ReviewSense.
           </p>
           <button className="px-8 py-4 rounded-full bg-white text-amber-600 font-semibold text-lg hover:shadow-lg transition-shadow">
-            <Link href="/login">
+            <Link href="/singup">
             Crear Cuenta Gratis
             </Link>
           </button>
